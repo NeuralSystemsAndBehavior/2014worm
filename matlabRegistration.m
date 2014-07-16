@@ -30,3 +30,5 @@ figure, imshowpair(greenRegistered,snapRed,'blend')
 
 transformationsFN = strcat(snapFN(1:end-4),'_transformations.mat');
 save(transformationsFN,'rectGreen','rectRed','greenPoints','redPoints','t_concord')
+
+%bla
